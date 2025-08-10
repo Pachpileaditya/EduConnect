@@ -1,0 +1,92 @@
+body, .app-root {
+  font-family: 'Poppins', Arial, sans-serif;
+  background: #ffffff;
+  color: #222222;
+  transition: background 0.3s, color 0.3s;
+}
+
+.light-theme {
+  background: #ffffff !important;
+  color: #222222 !important;
+}
+
+.card, .form-control, .btn, .alert {
+  background: #fff !important;
+  color: #222 !important;
+  border: 1px solid #ccc;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Orbitron', 'Poppins', Arial, sans-serif;
+  letter-spacing: 1px;
+}
+
+.neon-input {
+  background: #fff;
+  color: #222;
+  border: 2px solid #bb86fc;
+  box-shadow: 0 0 8px #bb86fc44;
+  transition: border 0.2s, box-shadow 0.2s;
+}
+
+.neon-input:focus {
+  border-color: #00f2ff;
+  box-shadow: 0 0 12px #00f2ff88;
+  outline: none;
+}
+
+.neon-btn {
+  background: linear-gradient(90deg, #bb86fc 0%, #00f2ff 100%);
+  color: #222;
+  border: none;
+  font-weight: bold;
+  box-shadow: 0 0 12px #bb86fc88, 0 0 24px #00f2ff44;
+  transition: box-shadow 0.2s, background 0.2s;
+}
+
+.neon-btn:hover, .neon-btn:focus {
+  box-shadow: 0 0 24px #bb86fcaa, 0 0 48px #00f2ff88;
+  background: linear-gradient(90deg, #00f2ff 0%, #bb86fc 100%);
+  color: #fff;
+}
+
+.theme-toggle {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .card, .mx-auto.p-5.shadow-lg.rounded-4 {
+    padding: 2rem 1rem !important;
+    max-width: 95vw !important;
+  }
+  .app-root {
+    padding: 0 !important;
+  }
+  h1, h2, h3 {
+    font-size: 2rem !important;
+  }
+}
+@media (max-width: 600px) {
+  .card, .mx-auto.p-5.shadow-lg.rounded-4 {
+    margin: 1rem 0.2rem !important;
+    padding: 1.2rem 0.5rem !important;
+    max-width: 99vw !important;
+  }
+  .neon-btn, .btn {
+    font-size: 1rem !important;
+    padding: 0.7rem 1.2rem !important;
+    border-radius: 1.2rem !important;
+  }
+  .neon-input, .form-control {
+    font-size: 1rem !important;
+    padding: 0.5rem 0.8rem !important;
+  }
+  h1, h2, h3 {
+    font-size: 1.3rem !important;
+  }
+  .theme-toggle {
+    top: 0.5rem !important;
+    right: 0.5rem !important;
+    font-size: 1rem !important;
+  }
+}
