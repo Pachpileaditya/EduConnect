@@ -321,3 +321,5 @@ CREATE TABLE hod_teachers (
 
 *This implementation provides a complete, secure, and user-friendly HOD management system with modern UI/UX design and comprehensive functionality.*
 
+
+
