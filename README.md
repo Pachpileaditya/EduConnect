@@ -46,34 +46,6 @@ It enables teachers to share subject content, answer student questions, and mana
 
 ---
 
-## 📂 Project Structure
-
-EduConnect/
-├── backend/ # Spring Boot backend
-│ ├── src/main/java/... # Source code (controllers, services, configs, security)
-│ ├── src/main/resources/ # application.properties
-│ └── pom.xml # Maven dependencies
-│
-├── frontend/frontendapp/ # React frontend
-│ ├── public/ # Static assets
-│ ├── src/ # Source code
-│ │ ├── Component/
-│ │ │ ├── Student/ # Student dashboard components
-│ │ │ ├── Teacher/ # Teacher dashboard components
-│ │ │ ├── auth/ # Login/Register components
-│ │ │ ├── comman/ # Common reusable components
-│ │ │ └── LandingPage.jsx
-│ │ ├── assets/ # Images, icons
-│ │ ├── App.jsx
-│ │ ├── App.css
-│ │ ├── main.jsx
-│ │ └── index.css
-│ └── package.json # Frontend dependencies
-
-
-
----
-
 ## ⚙️ Installation & Setup
 
 ### 🔧 Prerequisites
