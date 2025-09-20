@@ -83,17 +83,17 @@ npm run dev
 
 Frontend runs at: http://localhost:5173
 
-🔐 Authentication & Security
-	• Secure access using JWT (JSON Web Token).
-	• Role-based access:
-		○ Teacher – Manage content & answer student questions.
-		○ Student – Access content & interact with teachers.
+🔐 Authentication & Security  
+	• Secure access using JWT (JSON Web Token).  
+	• Role-based access:  
+		○ Teacher – Manage content & answer student questions.  
+		○ Student – Access content & interact with teachers.  
 
-🌟 Future Enhancements
-	• Real-time notifications using WebSockets.
-	• Admin dashboard for better insights
-	• AI-powered chatbot for instant student help.
+🌟 Future Enhancements  
+	• Real-time notifications using WebSockets.  
+	• Admin dashboard for better insights  
+	• AI-powered chatbot for instant student help.  
 
-🤝 Contributing
+🤝 Contributing  
 Contributions are welcome! Feel free to open issues and submit pull requests.
 
