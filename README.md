@@ -57,14 +57,14 @@ It enables teachers to share subject content, answer student questions, and mana
 ### ▶️ Backend Setup
 
 # Clone repo
-git clone https://github.com/your-username/EduConnect.git
+git clone https://github.com/your-username/EduConnect.git  
 cd EduConnect/backend
 
 # Configure MySQL in application.properties
-spring.datasource.url=jdbc:mysql://localhost:3306/educonnect
-spring.datasource.username=root
-spring.datasource.password=yourpassword
-spring.jpa.hibernate.ddl-auto=update
+spring.datasource.url=jdbc:mysql://localhost:3306/educonnect  
+spring.datasource.username=root  
+spring.datasource.password=yourpassword  
+spring.jpa.hibernate.ddl-auto=update  
 
 # Build & run
 mvn clean install
