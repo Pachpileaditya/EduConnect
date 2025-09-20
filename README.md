@@ -1,40 +1,52 @@
-📚 EduConnect – Institute App
-EduConnect is a full-stack web application designed for seamless collaboration between Teachers and Students.
+# 📚 EduConnect – Institute App
+
+EduConnect is a **full-stack web application** designed for seamless collaboration between **Teachers and Students**.  
 It enables teachers to share subject content, answer student questions, and manage content efficiently, while students can learn, interact, and engage with subject experts in real time.
 
-🚀 Tech Stack
-🔹 Frontend
-	• React.js
-	• React Router
-	• Axios
-	• CSS
-🔹 Backend
-	• Spring Boot
-	• Spring Security (JWT Authentication)
-	• Spring Data JPA
-	• Hibernate
-	• Maven
-🔹 Database
-	• MySQL
+---
 
-✨ Features
-👩‍🏫 Teacher
-	• Choose subjects.
-	• Add, update, delete subject content.
-	• View subject content.
-	• Answer student questions.
-	• Update/delete answers.
-	• Track points earned.
-	• View likes answers.
-🎓 Student
-	• View subject content.
-	• Ask questions to subject teachers.
-	• Delete own questions.
-	• View answers given by teachers.
-	• Like and view answers.
-	• Access subject-specific Q&A.
-	
-📂 Project Structure
+## 🚀 Tech Stack
+
+### 🔹 Frontend
+- React.js  
+- React Router  
+- Axios  
+- CSS  
+
+### 🔹 Backend
+- Spring Boot  
+- Spring Security (JWT Authentication)  
+- Spring Data JPA  
+- Hibernate  
+- Maven  
+
+### 🔹 Database
+- MySQL  
+
+---
+
+## ✨ Features
+
+### 👩‍🏫 Teacher
+- Choose subjects  
+- Add, update, delete subject content  
+- View subject content  
+- Answer student questions  
+- Update/delete answers  
+- Track points earned  
+- View likes and views on answers  
+
+### 🎓 Student
+- View subject content  
+- Ask questions to subject teachers  
+- Delete own questions  
+- View answers given by teachers  
+- Like and view answers  
+- Access subject-specific Q&A  
+
+---
+
+## 📂 Project Structure
 
 EduConnect/
 ├── backend/                # Spring Boot backend
@@ -59,41 +71,45 @@ EduConnect/
 │   └── package.json        # Frontend dependencies
 
 
-⚙️ Installation & Setup
-🔧 Prerequisites
-	• Java 17+
-	• Node.js (v16+)
-	• MySQL
-	• Maven
 
-▶️ Backend Setup
-	1. Clone the repository:
+---
 
-git clone https://github.com/Pachpileaditya/EduConnect.git
+## ⚙️ Installation & Setup
+
+### 🔧 Prerequisites
+- Java 17+  
+- Node.js (v16+)  
+- MySQL  
+- Maven  
+
+### ▶️ Backend Setup
+
+# Clone repo
+git clone https://github.com/your-username/EduConnect.git
 cd EduConnect/backend
-	2. Configure MySQL Database in application.properties:
 
+# Configure MySQL in application.properties
 spring.datasource.url=jdbc:mysql://localhost:3306/educonnect
 spring.datasource.username=root
 spring.datasource.password=yourpassword
 spring.jpa.hibernate.ddl-auto=update
-	3. Build and run the backend:
 
+# Build & run
 mvn clean install
 mvn spring-boot:run
-Backend will run at: http://localhost:8080
+
+Backend runs at: http://localhost:8080
 
 ▶️ Frontend Setup
-	1. Navigate to frontend:
-
 cd ../frontend/frontendapp
-	2. Install dependencies:
 
+# Install dependencies
 npm install
-	3. Run the React app:
 
+# Run React app
 npm run dev
-Frontend will run at: http://localhost:5173
+
+Frontend runs at: http://localhost:5173
 
 🔐 Authentication & Security
 	• Secure access using JWT (JSON Web Token).
