@@ -67,18 +67,18 @@ spring.datasource.password=yourpassword
 spring.jpa.hibernate.ddl-auto=update  
 
 # Build & run
-mvn clean install
-mvn spring-boot:run
+mvn clean install  
+mvn spring-boot:run  
 
 Backend runs at: http://localhost:8080
 
-▶️ Frontend Setup
+▶️ Frontend Setup  
 cd ../frontend/frontendapp
 
 # Install dependencies
 npm install
 
-# Run React app
+# Run React app  
 npm run dev
 
 Frontend runs at: http://localhost:5173
